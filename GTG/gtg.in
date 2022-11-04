@@ -77,7 +77,7 @@ gi.require_version('GtkSource', '4')
 
 from gi.repository import GLib
 
-_LOCAL = @local_build@
+_LOCAL = '@local_build@'
 
 if _LOCAL:
     sys.path.insert(1, '@pythondir@')
